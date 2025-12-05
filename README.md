@@ -67,7 +67,6 @@ After it completes, Terraform will output:
   ```
 - `windows_vm_private_ips` – list of private IPs for the Windows hosts, which you can drop into your Ansible `inventory/hosts.yml`.
 
----
 
 ## Using an Existing Subnet (e.g., from your previous workshop)
 
@@ -95,7 +94,6 @@ When `existing_subnet_id` is set:
     - WinRM (5985) between the controller and the Windows VMs
   - Any required routing / firewall rules are already in place.
 
----
 
 ## Windows WinRM Configuration (Lab-Only)
 
@@ -115,7 +113,6 @@ For production, you should move to:
 - Stronger authentication (Kerberos, certificate, etc.)
 - Tight inbound NSG rules
 
----
 
 ## Tying This into the Ansible Workshop
 
